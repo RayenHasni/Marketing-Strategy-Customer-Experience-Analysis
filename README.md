@@ -22,17 +22,20 @@
 ## Project Structure
 
 ```
-Marketing Management/
-├── 1. Clean Data/              # SQL queries for data extraction
-│   ├── CustomerQ.sql           # Customer demographics & geography
-│   ├── EngagementQ.sql         # Customer engagement metrics
-│   ├── JourneyQ.sql            # Customer journey stages
-│   ├── ProductQ.sql            # Product performance data
-│   └── ReviewsQ.sql            # Customer review data
-├── 2. Sentiment Analysis/       # NLP-powered sentiment processing
-│   ├── SentimentAnalysis.py     # VADER sentiment analysis script
-│   └── customer_reviews_with_sentiment.csv  # Enriched review data with sentiment scores
-└── 3. Dashboard/               # Interactive visualizations
+Marketing-Strategy-Customer-Experience-Analysis/
+├── Data/              
+│   ├── customer_reviews_with_sentiment.csv   # Customer final data
+├── Report/              
+│   ├── Marketing_Report.pbix                 # Power BI Dashboard
+├── Scripts/                     # SQL queries for data extraction
+│   ├── CustomerQ.sql                         # Customer demographics & geography
+│   ├── EngagementQ.sql                       # Customer engagement metrics
+│   ├── JourneyQ.sql                          # Customer journey stages
+│   ├── ProductQ.sql                          # Product performance data
+│   └── ReviewsQ.sql                          # Customer review data
+├── 2. Sentiment Analysis/       
+    ├── SentimentAnalysis.py     # VADER sentiment analysis script
+    └── customer_reviews_with_sentiment.csv   # Enriched review data with sentiment scores
 ```
 
 ## Key Technologies
