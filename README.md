@@ -41,6 +41,7 @@ Marketing Management/
 - **Python** – Sentiment analysis using NLTK VADER (1,365+ reviews processed)
 - **Pandas** – Data manipulation and transformation
 - **NLP** – Natural Language Processing for sentiment classification (Positive, Negative, Mixed)
+- **Power BI** – Data Visualisation and KPI monotoring
 
 ## Methodology
 
@@ -60,7 +61,7 @@ Sentiment scores segmented into 5 buckets for deeper analysis:
 - 0.5 to 1.0: Strong Positive
 
 ### 4. Visualization & Reporting
-Interactive dashboard consolidates findings for marketing team to identify high-value customer segments, product strengths/weaknesses, and targeted improvement areas.
+Interactive Power BI dashboard consolidates findings for marketing team to identify high-value customer segments, product strengths/weaknesses, and targeted improvement areas.
 
 ## Key Performance Indicators (KPIs)
 
@@ -85,9 +86,9 @@ Interactive dashboard consolidates findings for marketing team to identify high-
 
 ## How to Use
 
-1. **Run SQL Queries**: Execute queries in `1. Clean Data/` against your SQL Server database to extract clean, integrated datasets
+1. **Run SQL Queries**: Execute queries in `Clean Data/` against your SQL Server database to extract clean, integrated datasets
 2. **Process Sentiment**: Run `SentimentAnalysis.py` to analyze reviews and generate enriched sentiment data
-3. **Build Dashboard**: Connect dashboard tools (Power BI/Tableau) to visualization layer using processed data
+3. **Build Dashboard**: Connect dashboard tools (Power BI) to visualization layer using processed data
 4. **Monitor KPIs**: Track conversion rate, engagement rate, AOV, and feedback scores monthly
 - High-performing product categories identified for targeted seasonal promotions
 - Geographic and demographic segmentation enables personalized marketing campaigns
@@ -99,7 +100,7 @@ Interactive dashboard consolidates findings for marketing team to identify high-
 - Deploy advanced NLP models (BERT, DistilBERT) for nuanced sentiment classification
 - Implement predictive modeling for customer churn and lifetime value
 - Automate pipeline with scheduling for real-time sentiment monitoring
-- Expand analysis to social media and competitor reviews
+- Expand analysis competitor reviews
 
 ## Skills Demonstrated
 
