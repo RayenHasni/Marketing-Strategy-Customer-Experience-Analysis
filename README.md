@@ -27,14 +27,14 @@ Marketing-Strategy-Customer-Experience-Analysis/
 │   ├── customer_reviews_with_sentiment.csv   # Customer final data
 ├── Report/              
 │   ├── Marketing_Report.pbix                 # Power BI Dashboard
-├── Scripts/                     # SQL queries for data extraction
+├── Scripts/                                  # SQL queries for data extraction
 │   ├── CustomerQ.sql                         # Customer demographics & geography
 │   ├── EngagementQ.sql                       # Customer engagement metrics
 │   ├── JourneyQ.sql                          # Customer journey stages
 │   ├── ProductQ.sql                          # Product performance data
 │   └── ReviewsQ.sql                          # Customer review data
 ├── 2. Sentiment Analysis/       
-    ├── SentimentAnalysis.py     # VADER sentiment analysis script
+    ├── SentimentAnalysis.py                  # VADER sentiment analysis script
     └── customer_reviews_with_sentiment.csv   # Enriched review data with sentiment scores
 ```
 
