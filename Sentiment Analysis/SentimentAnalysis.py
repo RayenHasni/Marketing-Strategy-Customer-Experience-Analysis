@@ -11,8 +11,8 @@ OUTPUT_PATH = "output/customer_reviews_with_sentiment.csv"
 def load_reviews(source: str):
     if source == "sql":
         return fetch_data_from_sql(
-            server="DESKTOP-BDE04OR\\SQLEXPRESS",
-            database="PortfolioProject_MarketingAnalytics",
+            server="your_server",
+            database="your_db",
             query="SELECT * FROM dbo.customer_reviews",
         )
 
